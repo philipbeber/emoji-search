@@ -22,5 +22,5 @@ deploy:
   secret_access_key: $SECRET_ACCESS_KEY
   bucket: $S3_BUCKET
   edge: true
-  on:
-    branch: master
+  upload_dir: site
+  local_dir: build
